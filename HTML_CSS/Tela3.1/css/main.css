@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 84px;
+  height: auto;
+}
+
+#Retangulo_Cima {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background: #a50010;
+}
+
+#Titulo {
+  margin-left: 45%;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #ffffff;
+}
+
+.Container {
+  width: 100vw;
+  height: 78vh;
+}
+
+.Card {
+  background-color: #a50010;
+  width: 468px;
+  height: 207px;
+  margin-left: 560px;
+  margin-top: 120px;
+  font-size: 24px;
+
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
+
+.Botao {
+  background-color: #a50010;
+  width: 468px;
+  height: 80px;
+  margin-left: 560px;
+  margin-top: 25px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+div {
+  display: inline-block;
+}
+
+#Retangulo_Baixo {
+  width: 100vw;
+  height: 58px;
+  display: flex;
+  background: #a50010;
+}
+
+#Texto_Fim {
+  width: 505px;
+  height: 29px;
+
+  margin-left: 38%;
+  font-family: "Magra";
+  font-weight: 550;
+  font-size: 20px;
+  color: #ffffff;
+}

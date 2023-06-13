@@ -1,0 +1,101 @@
+.fotoperfil{
+    width: 160px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card{
+    
+    min-width: 800px;
+    margin: 10px;
+    margin-top: 45px;
+    height: 180px;
+    display: flex;
+    background-color: #9400D3;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card::after{
+    content:'';
+    display: flex;
+    max-width: 800px;
+    position: relative;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.3);
+    transition: all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: -1;
+}
+
+.card:hover{
+    transform:scale(1.05,1.05);
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    margin-right: -7px;
+    margin-top: 10px;
+}
+
+.icone1{
+    width: 27px;
+    height: 28px;
+    margin-left: 8px;
+    margin-right: -7px;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 13.3px;
+    color: white;
+    margin: 10px;
+}
+
+.text_repo{
+    font-size: 15px;
+    color: white;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.cima{
+    height: 55px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+}
+
+.baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    transition: all 3s cubic-bezier(0.185, 1.84, 0.44, 1);
+}
+
+.baixo::after{
+    content:'';
+    position: absolute;
+    transition: all 3s cubic-bezier(0.185, 1.84, 0.44, 1);
+    z-index: -1;
+}
+
+.baixo:hover{
+    transform:scale(1.05,1.05);
+}

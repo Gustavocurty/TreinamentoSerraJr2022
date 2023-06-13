@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Retangulo {
+  width: 714px;
+  height: 561px;
+  background: #50c878;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Titulo {
+  width: 183px;
+  height: 58px;
+
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 48px;
+  margin-left: 38px;
+  margin-top: 35px;
+  color: #ffffff;
+}
+
+input {
+  width: 642px;
+  height: 71px;
+  margin-left: 36px;
+  margin-top: 16px;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #c6c6c6;
+}
+
+.Botao {
+  width: 642px;
+  height: 64px;
+  margin-left: 36px;
+  margin-top: 16px;
+  background: #0e5626;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+

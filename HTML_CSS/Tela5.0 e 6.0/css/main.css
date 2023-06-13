@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+input {
+  width: 1300px;
+  height: 35px;
+  margin-left: 120px;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 1310px;
+  height: 40px;
+  margin-left: 120px;
+  margin-top: 12px;
+  background: rgba(0, 206, 209, 0.7);
+  border: 0;
+}
+
+div {
+  display: inline-block;
+}
+
+img {
+  width: 27px;
+  height: auto;
+  margin-left: 190px;
+  margin-top: 10px;
+}
+
+#Retangulo_Cima {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  background: rgba(0, 206, 209, 0.7);
+}
+
+#Titulo {
+  margin-left: 45%;
+  margin-top: 15px;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+
+  color: black;
+}
+
+.Titulo_2 {
+  width: 167px;
+  height: 58px;
+  font-size: 48px;
+  margin-left: 46%;
+  margin-top: 10px;
+
+  color: #000000;
+}
+
+.Container {
+  width: 100vw;
+  height: 80vh;
+}
+
+.Card {
+  width: 230px;
+  height: 240px;
+  margin-top: 18px;
+  margin-left: 120px;
+  background: rgba(0, 206, 209, 0.7);
+  border-radius: 10%;
+}
+
+.Nome_1 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tempo_1 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+
+.Categoria_1 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -30px;
+  color: black;
+}
+
+.Nome_2 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tempo_2 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+
+.Categoria_2 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -30px;
+  color: black;
+}
+
+.Nome_3 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tempo_3 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+
+.Categoria_3 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -30px;
+  color: black;
+}
+
+.Nome_4 {
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 0px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tempo_4 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+
+.Categoria_4 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -30px;
+  color: black;
+}
+
+#Retangulo_Baixo {
+  width: 100vw;
+  height: 58px;
+  display: flex;
+  background: rgba(0, 206, 209, 0.7);
+}
+
+#Texto_Fim {
+  width: 505px;
+  height: 29px;
+
+  margin-left: 38%;
+  font-family: "Magra";
+  font-weight: 550;
+  font-size: 20px;
+  color: black;
+}

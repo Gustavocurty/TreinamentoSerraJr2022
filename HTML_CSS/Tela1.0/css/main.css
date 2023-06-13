@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+.Container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Retangulo_1 {
+  width: 573px;
+  height: 564px;
+  background-color: #993399;
+}
+
+.Titulo {
+  text-align: center;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+input{
+  background-color:#993399;
+  border: none;
+  color: white;
+}
+
+.Texto{
+  text-align: left;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+  
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.Retangulo_2 {
+  width: 573px;
+  height: 3px;
+  background: #ffffff;
+}

@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+input {
+  width: 1000px;
+  height: 46px;
+}
+.Lista{
+    font-size: 36px;
+}
+
+#Retangulo_Cima {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  background: rgba(0, 206, 209, 0.7);
+}
+
+#Titulo {
+  margin-left: 45%;
+  margin-top: 15px;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+
+  color: black;
+}
+
+.Container {
+  width: 100vw;
+  height: 74vh;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.Botao {
+  width: 120px;
+  height: 52px;
+  margin-left: 32px;
+  background: rgba(0, 206, 209, 0.7);
+  border: 0;
+  border-radius: 5%;
+}
+
+.Elementos{
+    margin-top: 34px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#Retangulo_Baixo {
+  width: 100vw;
+  height: 58px;
+  display: flex;
+  background: rgba(0, 206, 209, 0.7);
+}
+
+#Texto_Fim {
+  width: 505px;
+  height: 29px;
+
+  margin-left: 38%;
+  font-family: "Magra";
+  font-weight: 550;
+  font-size: 20px;
+  color: black;
+}

@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+#Retangulo_Cima {
+  width: 100vw;
+  height: 108px;
+  display: flex;
+  background: #a50010;
+}
+
+#Titulo {
+  margin-left: 45%;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #ffffff;
+}
+
+.Container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+div {
+  display: inline-block;
+}
+
+.Caixa {
+  height: 280px;
+  width: 270px;
+  margin-left: 190px;
+  margin-top: 105px;
+  border-radius: 7px;
+  background: #a50010;
+}
+
+.Texto {
+  margin-top: 70px;
+  text-align: center;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 22px;
+
+  color: #ffffff;
+}
+
+.Caixa_Nome {
+  width: 153px;
+  height: 57px;
+  margin-top: -20px;
+  margin-left: 60px;
+  border-radius: 7px;
+  background: #000000;
+}
+
+.Texto_Nome {
+  margin-top: 5px;
+  margin-left: 30px;
+  font-family: "Magra";
+  font-weight: 600;
+  font-size: 36px;
+
+  color: #ffffff;
+}
+
+#Retangulo_Baixo {
+  width: 100vw;
+  height: 68px;
+  display: flex;
+  background: #a50010;
+}
+
+#Texto_Fim {
+  width: 505px;
+  height: 29px;
+
+  margin-left: 38%;
+  font-family: "Magra";
+  font-weight: 550;
+  font-size: 20px;
+  color: #ffffff;
+}
